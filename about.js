@@ -14,4 +14,4 @@ let img = document.querySelector('#duckPng')
 
 form.addEventListener('submit', alert('information submitted'));
 
-img.addEventListener('mouseover', alert('Wow youre very smart'))
+img.addEventListener('mouseover',() => {alert('Wow youre very smart')})

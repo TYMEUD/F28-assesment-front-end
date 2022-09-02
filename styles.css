@@ -36,3 +36,9 @@ input {
 img {
 	max-width: 300px;
 }
+
+.favoriteThings {
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+}

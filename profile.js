@@ -19,6 +19,6 @@ let ritual = document.querySelector('#ritual')
 
 
 
-color.addEventListener('click', alert('Green'));
-place.addEventListener('click', alert('Okinawa'))
-ritual.addEventListener('click', alert('crying'))
+color.addEventListener('click', () => {alert('Green')});
+place.addEventListener('click', () => {alert('Okinawa')})
+ritual.addEventListener('click',() => {alert('crying')})
